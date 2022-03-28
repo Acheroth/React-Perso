@@ -1,0 +1,14 @@
+.titleFilm {
+    color : #61dafb;
+    font-size: 20px;
+}
+  
+.movie {
+    border : 2px solid white;
+    margin : 15px;
+    border-radius: 10px;;
+}
+
+.texte {
+    font-size: 16px;
+}

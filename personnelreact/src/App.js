@@ -31,7 +31,8 @@ function App() {
   return(
    <div className="App">
       <header className="App-header">
-        <div>{getMoviesElements()}</div>
+      <h1>Les films Star Wars</h1>
+        <div className="grilleFilm">{getMoviesElements()}</div>
       </header>
     </div>
   )
