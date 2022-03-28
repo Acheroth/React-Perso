@@ -1,10 +1,15 @@
 import logo from './logo.svg';
 import { useEffect, useState } from 'react';
 import './App.css';
+import Movie from './component/Movie';
 
 function App() {
 
   const [movies, setMovies] = useState([]);
+
+  useEffect(() => {
+    fetchFilms()
+  }, [])
 
   function fetchFilms() {
     fetch("https://swapi.dev/api/films/")
@@ -13,23 +18,18 @@ function App() {
         data => {
           setMovies(data.results)
         });
-    };
-  
-
-  useEffect(() => {
-    fetchFilms()
-}, [])
+  }
 
   function getMoviesElements(){
-    return movies.map((movie) => {
+    return movies.map((movie, key) => {
       return(
-        <h1>{movie.title}</h1>
+        <Movie movie={movie} key={key}/>
       )
     });
   }
 
-return(
-  <div className="App">
+  return(
+   <div className="App">
       <header className="App-header">
         <div>{getMoviesElements()}</div>
       </header>
