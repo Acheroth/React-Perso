@@ -1,0 +1,28 @@
+Pourquoi utiliser un Module CSS plutôt qu'un CSS ?
+    Les modules CSS sont plus utilisé car ils permettent de simplifier les noms de classe, on passe donc de movie.titleFilm a titleFilm.
+
+Rapport Personnelle :
+Personnellement, je ne fais jamais de développement web, c'est pourquoi j'ai pu découvrir de nombreuses choses cette semaine.
+
+Ainsi, j'ai pu découvrir l'existence des hooks. Tout au long de la semaine, j'ai pu mettre en place de manière personnelles
+certains de ces hooks.
+
+useState -> (dans ce projet) qui permet de définir un état
+useEffect -> (dans ce projet) qui permet l'éxécution d'effet de bord dans les composants (utilisatoin de fech dans ce projet)
+useReducer -> (dans le projet de groupe) qui permet de définir des états plus complexe avec l'utilisation d'une fonction reducer 
+qui gérera les différentes actions.
+
+J'ai aussi pu découvrir la creation de contexte avec createContexte qui permet de partager des données dans toute l'application
+(mis en place dans le projet de groupe). J'ai eu pas mal de malpour cette fonction lorsqu'il a fallu l'implémenter avec un reducer. 
+En effet, il m'a fallu pas mal de temps avant de réaliser que j'avais oublié de baliser mon application avec les balises de 
+mon contexte.
+
+Enfin pour terminer, j'ai pu faire un peu de style avec l'utilisation de Material UI.
+
+Avis Personnel:
+J'ai bien aimé le fait que l'on ai travaillé tout au long de la semaine sur un même projet et que l'on ai mis en place de plus en plus de 
+fonctionnalité après chaque cours même si le fait que ce soit du web m'ai un peu déplu (purement personnelle)
+
+
+
+
